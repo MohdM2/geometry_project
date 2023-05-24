@@ -5,7 +5,17 @@ public class Line {
         this.start = start;
         this.end = end;
     }
-    //getters and length function should be implemented
+
+    public Point getStart() {
+        return start;
+    }
+
+    public Point getEnd() {
+        return end;
+    }
+    /*length function should be implemented
+      it should return the Euclidean distance
+      between start and end)*/
 
     public double length() {
         return 0;
