@@ -18,6 +18,8 @@ public class Line {
       between start and end)*/
 
     public double length() {
-        return 0;
+        double d1 = Math.pow(Math.abs(start.getX() - end.getX()), 2);
+        double d2 = Math.pow(Math.abs(start.getY() - end.getY()), 2);
+        return Math.sqrt(d1 + d2);
     }
 }
